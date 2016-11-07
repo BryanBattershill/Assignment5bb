@@ -6,7 +6,7 @@ public class MainRecursion {
 		IntPatternClass intPattern = new IntPatternClass();
 		AsteriskClass ast = new AsteriskClass();
 		//System.out.println(intPattern.pattern(7));
-		ast.astPattern(3, 1);
+		ast.astPattern(5, 1);
 		//System.out.print("* * * *" + '\n' + " * * *" + '\n' + "  * *" + '\n' + "   * ");
 	}
 

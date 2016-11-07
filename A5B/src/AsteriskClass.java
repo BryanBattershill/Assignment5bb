@@ -1,15 +1,19 @@
 
 public class AsteriskClass {
 	public void astPattern(int number, int lines){
-		String prevPattern = "";
+		String pattern = "";
 		String ast = "*";
-		for (int counter = 0; counter < number; counter++){
-			prevPattern = prevPattern + " " + ast;
-		}	
-		System.out.println(prevPattern);
-		if (number > 1){ 
-			astPattern(number - 1, 1);
+		for (int counter = 1; counter < lines; counter++){
+			pattern = " " + pattern;
 		}
-		System.out.println(prevPattern);
+		for (int counter = 0; counter < number; counter++){
+			pattern = pattern + " " + ast;
+		}	
+		System.out.println(pattern);
+		
+		if (number > 1){ 
+			astPattern(number - 1, lines + 1);
+		}
+		System.out.println(pattern);
 	}
 }
