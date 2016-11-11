@@ -25,13 +25,13 @@ public class MnemonicClass {
 		letters[1][2] = Character.toString((char)((3*num3)+'A'-5));
 		letters[2][2] = Character.toString((char)((3*num3)+'A'-4));
 		
-		System.out.print(Arrays.deepToString(letters));
-
 		return mnemonicList;
 	}
 	
 	private void  mnemonicCombos(char[][] letters, int xCoord, int yCoord, ArrayList<String> mnemonicList){
-		
+		for (int i = 0; i < 3; i++){
+			
+		}
 	}
 	
 }
