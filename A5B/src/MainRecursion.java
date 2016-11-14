@@ -10,8 +10,8 @@ public class MainRecursion {
 		ArrayList<String> mnemonicList = new ArrayList<String>();
 		//System.out.println(intPattern.pattern(7));
 		//ast.astPattern(5, 1);
-		mnemonicList = mnemonic.mnemonicPattern(222);
-		//System.out.println(mnemonicList.toString());
+		mnemonicList = mnemonic.mnemonics(22222222222);
+		System.out.println(mnemonicList.toString());
 	}
 
 }
