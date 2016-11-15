@@ -33,7 +33,7 @@ public class MainRecursion {
 		
 		//Choosing what to input into function
 		System.out.println("Enter a number.");
-		if (userIn.hasNextInt()){
+		if (userIn.hasNextLong()){
 			numChosen = userIn.nextLong();
 			if (classChosen == 1){
 				MnemonicClass mnemonic = new MnemonicClass();
